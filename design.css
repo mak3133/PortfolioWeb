@@ -1,0 +1,149 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.navbar .navbar-brand {
+    margin-right: auto;
+}
+
+.navbar .nav-link {
+    margin-right: 20px; /* Adjust the gap between tabs */
+}
+.header {
+    display: flex;
+    background-color: #800000;
+
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+
+.logo {
+    float: right; 
+}
+
+
+.nav {
+    /* list-style-type: none; */
+    /* margin-block: 35px;
+    margin-top: 100px; */
+    /* height: 50px; */
+    /* width: 80%; */
+    border-radius: 0px 60px 60px 0px;
+    font-weight: bold;
+    color: white;
+    /* font-size: 30px; */
+
+}
+
+
+ul {
+    display: flex;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul li a {
+    border: 10px;
+    text-shadow: 50px;
+    margin-left: 60px;
+    font-size: 15px;
+    color: white;
+}
+
+.clearall {
+    clear: both;
+}
+
+.infoarea {
+    margin-top: 50px;
+    padding: 10px 100px;
+}
+.image{
+    display: block;
+     margin-left: 10px
+}
+.btnl {
+    height: 50px;
+    width: 300px;
+    background-color: rgb(34, 33, 33);
+    color: rgb(223, 215, 215);
+    border-radius: 70px;
+    border: none;
+    font-size: 20px;
+    margin-top: 100px;
+}
+
+/* day 2*/
+
+.main {
+    height: auto;
+    width: 100%;
+    margin-top: 50px;
+    padding: 20px 20px;
+    background-color: #804242;
+}
+.main1 {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.main2 {
+    height: 400px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.main3 {
+    height: 300px;
+    width: 300px;
+    margin: 50px 50px;
+    text-align: center;
+    box-shadow: 10px 10px 5px rgb(198, 202, 203);
+    color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-bottom: 20px;
+}
+.main3:hover .main{
+    transform: scale(1.2);
+}
+.section {
+    height: auto;
+    width: 100%;
+    margin-top: 50px;
+    padding: 20px 20px;
+}
+
+.section1 {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.section2 {
+    height: 400px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.section3 {
+    height: 300px;
+    width: 300px;
+    margin: 50px 50px;
+    text-align: center;
+    color: black;
+    box-shadow: 10px 10px 5px rgb(23, 24, 24);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-bottom: 20px;
+}
